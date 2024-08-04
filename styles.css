@@ -1,0 +1,54 @@
+
+body{
+  font-family: monospace;
+}
+
+#myCanvas {
+  background-color: black;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#settings {
+  display: grid;
+  grid-template-rows: 50px;
+  margin-right: 20px;
+  grid-gap: 10px;
+  @border: 1px solid black;
+  @border-radius: 10px;
+  padding: 5px;
+  margin-left: 30px;
+  width: 250px;
+}
+
+.settingsBar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 3px;
+}
+
+.settingTitle {
+  color: red;
+  font-size: 15px;
+}
+
+.settingBarValue {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+
+#title {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-size: 45px;
+
+}
